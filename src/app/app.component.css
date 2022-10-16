@@ -1,0 +1,17 @@
+.navbar{
+
+    /* background-color: rgba(192, 104, 230, 0.61) !important; */
+}
+.navLink::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    /* background: #f4433f; */
+    background: rgb(255, 0, 191);
+    display: block;
+    margin: auto;
+    transition: .6s;
+}
+.navLink:hover::after{
+    width: 100%;
+}
